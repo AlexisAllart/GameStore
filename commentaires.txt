@@ -1,0 +1,27 @@
+Emmet abbreviations (www.emmet.io) :
+
+exemple (html) :
+
+header.header>nav.navbar>(a.navbar-items[href=#])*4
+renvoie :
+<header class="header">
+    <nav class="navbar">
+        <a class="navbar-item" href="#">Game Store</a>
+        <a class="navbar-item" href="#">Blog</a>
+        <a class="navbar-item" href="#">Connexion</a>
+        <a class="navbar-item" href="#">Inscription</a>
+    </nav>
+</header>
+(faire ctrl+space si l'emmet abbreviation n'apparaît plus)
+
+
+Entités (pour les caractères spéciaux qui peuvent causer conflit) :
+&####; avec #### pour l'entité recherchée : exemple &euro; pour €, &gt; pour >
+
+
+1em = 16px
+
+
+Allez plus loin en CSS : Masonry CSS
+Faire une calculatrice en JS ?
+Dribbble
